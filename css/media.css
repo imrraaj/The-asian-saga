@@ -1,0 +1,178 @@
+@media screen and (max-width:720px) {
+    *{
+        margin: 0;
+        padding: 0;
+        scroll-behavior: smooth;
+        overflow-x: hidden;
+    
+    }
+    #navbar {
+        width: 100%;
+    }
+    .navigation {
+        display: none;
+    }
+    .menubtn{
+        position: relative;
+        top: 15px;
+        right: 5%;
+    }
+    .navigation.responsive {
+        display: inline;
+    }
+
+    .navigation.responsive ul {
+        width: 100%;
+        height: inherit;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .navigation.responsive ul li {
+        margin: 20px 0;
+
+    }
+
+    .line {
+        display: block;
+    }
+    .new-items{
+        flex-direction: column;
+        height: inherit;
+    }   
+    .header-text{
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        height: 85vh;
+        width: inherit;
+        justify-content: center;
+        text-align: center;
+    }
+    .header-text p {
+        font-size: 1em;
+    }
+    .headertext{
+        position: absolute;
+        top: 50px;
+        left: 0;
+        padding: 20px;
+    }
+    .todays h1{
+        margin-top: 60px;
+        text-align: center;
+        margin: 70px 0;
+    }
+    .new-items .new {
+
+        width: inherit;
+        height: inherit;
+        position: relative;
+        margin: 20px;
+        box-shadow: 5px 5px rgb(135 222 200);
+    }
+    .new-img {
+        position: relative;
+        height: 200px;
+        width: inherit;
+        overflow: hidden;
+    }
+
+
+    .whats-new{
+        flex-direction: column;
+        width: 90%;
+        margin-left: 60px;
+    }
+    .txt{
+        width: 92%;
+        margin-left: 0px;
+    }
+    .txt p{
+        width: inherit;
+    }
+    .disc{
+        height: 80vh;
+    width: inherit;
+    margin: 0;
+    background: url(../img/brooke-lark-4J059aGa5s4-unsplash.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    }
+    .disc .text {
+        width: 90%;
+        margin: auto 19px;
+    }
+
+    
+    .cards{
+        flex-direction: column;
+        height: inherit;
+    }
+    .ourpromise h1 {
+        width: fit-content;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    .card{
+        height: 255px;
+        display: flex;
+        flex-direction: column;
+        padding: 30px 10px;
+        background-color: blanchedalmond;
+        box-shadow: 5px 5px rgb(135 222 200);
+        margin: 20px;
+    }
+    .testemonials{
+        height: inherit;
+        flex-direction: column;
+        width: 87%;
+    }
+    .visible{
+        margin: 0;
+        margin-left: 1em;
+        height: inherit;
+        width: inherit;
+    }
+    .testcard{
+        flex-direction: column;
+        height: inherit;
+        width: inherit;
+    }
+    .testcard .text {
+        margin: auto 0;
+        margin-left: 20px;
+        margin-bottom: 20px;
+    }
+    .testcard img {
+        height: inherit;
+        width: 200px;
+        margin-left: 20px;
+        margin-bottom: 20px;
+    }
+    .footer-1{
+        flex-direction: column;
+        height: inherit;
+        display: flex;
+        margin: auto;
+        width: 70%;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+    .footer-1 ul {
+        margin: 10px 0;
+        margin-bottom: 20px;
+    }
+    .search{
+        margin-top: 20px;
+    }
+    .footer-1 .footertxt {
+        width: 115%;
+    }
+    .footer-2{
+        text-align: center;
+        margin-top: 20px;
+    }
+}

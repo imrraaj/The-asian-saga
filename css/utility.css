@@ -1,0 +1,81 @@
+@font-face {
+    font-family: MyFont;
+    src: url(./Bree_Serif/BreeSerif-Regular.ttf);
+}
+@font-face {
+    font-family: MyTextFont;
+    src: url(./Poppins/Poppins-Medium.ttf);
+}
+@font-face {
+    font-family: MyParaFont;
+    src: url(./Poppins/Poppins-Thin.ttf);
+}
+:root{
+    --primary: #546e7a;
+    --secondary: #fbcebf;
+    --text-color: lightsalmon;
+    --para: #404040;
+    --heading-family :MyFont;
+    --para-family: MyTextFont;
+}
+.bg-primary{
+    background-color: var(--primary);
+}
+.bg-secondary{
+    background-color: var(--secondary);
+}
+.font-primary{
+    color: var(--primary);
+}
+.font-secondary{
+    color: var(--secondary);
+}
+.font-text{
+    color: var(--text-color);
+}
+.font-para{
+    color: var(--para);
+}
+
+.font-heading{
+    font-family: var(--heading-family);
+    font-size: 2em;
+}
+.font-subheading{
+    font-family: var(--heading-family);
+    font-size: 1.5em;
+}
+.font-text-family{
+    font-family: var(--para-family);
+}
+
+.border-primary{
+    border:2px solid var(--primary);
+}
+.border-secondary{
+    border:2px solid var(--secondary);
+}
+.bg-trasnparent{
+    background-color: transparent;
+    color: var(--text-color);
+}
+.btn{
+    height: 40px;
+    width: 100px;
+    border-radius: 5px;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-family: var(--heading-family);
+}
+.centerx{
+    width: 100%;
+    margin: 0 auto;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.display{
+    display: none;
+}
